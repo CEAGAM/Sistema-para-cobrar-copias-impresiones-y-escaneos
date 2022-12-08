@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/34467f2f07.js" crossorigin="anonymous"></script>
+    <title>USBI Sistema copias</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-content">
+        <h1 class="main-title">USBI COATZACOALCOS</h2>
+        <p class="main-text">Seleccione el número de copias:</p>
+        <div id="counter">
+          <button class="button" name="subtrair" onclick="decrement()">-</button>
+          <span id="currentNumber">0</span>
+          <button class="button" name="adicionar" onclick="increment()">+</button>
+          <button class="button" name="clean" onclick="cleanerc()"><i class="fa-solid fa-trash"></i></button>
+          <i class="fa-solid fa-dollar-sign" id="dollar"></i>
+          <span id="pcopy">0</span>
+          <button class="button" name="price" onclick="precio()"><i class="fa-solid fa-check"></i></button>
+          <script src="script.js"></script> 
+        </div>
+        <p class="main-text">Seleccione el número de impresiones:</p>
+        <div id="counter">
+          <button class="button" name="subtrair" onclick="decrement2()">-</button>
+          <span id="currentNumber2">0</span>
+          <button class="button" name="adicionar" onclick="increment2()">+</button>
+          <button class="button" name="clean" onclick="cleaneri()"><i class="fa-solid fa-trash"></i></button>
+          <i class="fa-solid fa-dollar-sign" id="dollar"></i>
+          <span id="pprint">0</span>
+          <button class="button" name="price" onclick="precioi()"><i class="fa-solid fa-check"></i></button>
+          <script src="script.js"></script> 
+        </div>
+        <p class="main-text">Seleccione el número de escaneo:</p>
+        <div id="counter">
+          <button class="button" name="subtrair" onclick="decrement3()">-</button>
+          <span id="currentNumber3">0</span>
+          <button class="button" name="adicionar" onclick="increment3()">+</button>
+          <button class="button" name="clean" onclick="cleaners()"><i class="fa-solid fa-trash"></i></button>
+          <i class="fa-solid fa-dollar-sign" id="dollar"></i>
+          <span id="pscan">0</span>
+          <button class="button" name="price" onclick="precios()"><i class="fa-solid fa-check"></i></button>
+          <script src="script.js"></script> 
+        </div>
+        <div class="print">
+          <button class="button-1" name="imprimir" onclick="print()">Imprimir ticket</button>
+          <button class="button-1" name="reporte" onclick="report()">Reporte</button>
+        </div>
+      </div>
+
+    <footer>
+      <div class="foo-cont">
+        <div class="box">
+          <img src="image/uv.png">
+        </div>      
+      </div> 
+      <div class="derechos">
+        <small>&copy; 2022 <b>Universidad Veracruzana</b> | Servicios Informáticos, USBI Coatzacoalcos | Todos los derechos reservados</small>
+      </div> 
+    </footer>
+  </div>
+</body>
+</html>
